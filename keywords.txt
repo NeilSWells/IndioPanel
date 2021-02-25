@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map IndioRtc
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+IndioPanel		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+enterPressed		KEYWORD2
+upPressed		KEYWORD2
+downPressed		KEYWORD2
+enterHeld		KEYWORD2
+upHeld			KEYWORD2
+downHeld		KEYWORD2
+setDebounce		KEYWORD2
+setBacklightTimeout	KEYWORD2
+timeoutRestart		KEYWORD2
+setBacklightLevel	KEYWORD2
+backlightOn		KEYWORD2
+backlightOff		KEYWORD2
+
