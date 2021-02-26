@@ -38,6 +38,7 @@ The library includes a timeout to bring the backlight on as a key is pressed and
     setDebounce(int)
     setBacklightTimeout(long)
     timeoutRestart()
+    bool = timeoutExpired()
     setBacklightLevel(byte)    
     backlightOn()
     backlightOff()
@@ -72,6 +73,9 @@ Maximum 3,600,000 ms or 1 hour.
 
 ## backlightRestart()
 Restarts the backlight timer to stop the timer expiring.
+
+## timeoutExpired()
+Returns true if the timeout has expired.
 
 ## backlightLevel(byte)
 Sets the brightness for the backlight.
