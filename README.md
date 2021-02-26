@@ -66,9 +66,13 @@ The longer the debounce, the more sure you can be that the press was meant.
 ## backlightTimeout(long)
 The backlight timeout brings on the backlight for a specified time after a button is pressed.
 As long as a button is pressed within the timeout period, the backlight will stay on.
+
 The parameter is the time in milliseconds. 1000 = 1 second
-Maximum 3,600,000 ms or 1 hour. 
+
+Maximum 3,600,000 ms or 1 hour.
+
 `backlightTimeout(15000);` Sets a timeout of 15 seconds.
+
 `backlightTimeout(0);` Turns off the backlight timeout. Use backlightOn() - backlighOff() for manual control.
 
 ## backlightRestart()
