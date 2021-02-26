@@ -102,6 +102,12 @@ void IndioPanel::timeoutRestart()
 }
 
 
+bool IndioPanel::timeoutExpired()
+{
+    return millis() - backlightMillis > timeout;
+}
+
+
 void IndioPanel::setBacklightTimeout(long t)
 {
     if (t >= 0 && t <= BACKLIGHT_MAX_TIMEOUT) timeout = t;
