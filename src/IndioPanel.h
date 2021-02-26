@@ -30,6 +30,7 @@ class IndioPanel
         void backlightOn();
         void backlightOff();
         void timeoutRestart();
+        bool timeoutExpired();
         void setBacklightTimeout(long t);
         void setBacklightLevel(byte l);
     private:
