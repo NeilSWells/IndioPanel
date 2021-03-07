@@ -73,7 +73,9 @@ Maximum 3,600,000 ms or 1 hour.
 
 `backlightTimeout(15000);` Sets a timeout of 15 seconds.
 
-`backlightTimeout(0);` Turns off the backlight timeout. Use `backlightOn();` - `backlighOff();` for manual control.
+`backlightTimeout(0);` Turns off the backlight timeout.
+
+Use `backlightOn();` - `backlighOff();` for manual control.
 
 ## backlightRestart()
 Restarts the backlight timer to stop the timer expiring.
