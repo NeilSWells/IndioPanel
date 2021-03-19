@@ -77,7 +77,7 @@ Maximum 3,600,000 ms or 1 hour.
 
 Use `backlightOn();` - `backlighOff();` for manual control.
 
-## backlightRestart()
+## timeoutRestart()
 Restarts the backlight timer to stop the timer expiring.
 
 ## timeoutExpired()
